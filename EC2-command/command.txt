@@ -5,8 +5,8 @@ systemctl status httpd
 mkdir temp
 cd temp
 wget https://www.free-css.com/assets/files/free-css-templates/download/page296/neogym.zip
-unzip complex.zip
-cd complex
+unzip neogym.zip
+cd neogym
 ls -lrt
 mv * /var/www/html
 systemctl enable httpd
