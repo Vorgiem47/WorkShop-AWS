@@ -12,10 +12,10 @@
             "Sid": "2",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E1XRZTZ9REDOCD"
+                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity [OAI-ID]"
             },
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::my-statitique-site-virgile-workshop-773979321/*"
+            "Resource": "arn:aws:s3:::THE_NAME_OF_YOUR_BUCKET/*"
         }
     ]
 }
