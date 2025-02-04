@@ -6,14 +6,14 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::my-statitique-site-virgile-workshop-773979321/*"
+            "Resource": "arn:aws:s3:::PUT_THE_NAME_OF_YOUR_BUCKET/*"
         },
         {
             "Sid": "2",
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::my-statitique-site-virgile-workshop-773979321/*"
+            "Resource": "arn:aws:s3:::PUT_THE_NAME_OF_YOUR_BUCKET/*"
         }
     ]
 }
