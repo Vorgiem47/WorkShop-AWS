@@ -6,7 +6,7 @@ mkdir temp
 cd temp
 wget https://www.free-css.com/assets/files/free-css-templates/download/page296/neogym.zip
 unzip neogym.zip
-cd neogym
+cd neogym-html
 ls -lrt
 mv * /var/www/html
 systemctl enable httpd
